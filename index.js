@@ -38,7 +38,8 @@ Component.prototype.create = function (model) {
 };
 
 Component.prototype.destroy = function () {
-  getElement(this.getAttribute('name')).remove();
+  var el = getElement(this.getAttribute('name'));
+  if (el) el.remove();
 };
 
 module.exports = Component;
