@@ -1,0 +1,25 @@
+{
+  "author": "Dennis Torres <djtorres0@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/psirenny/d-meta-tag/issues"
+  },
+  "description": "Derby component to render server-side and client-side meta tags",
+  "homepage": "https://github.com/psirenny/d-meta-tag#readme",
+  "keywords": [
+    "Derby",
+    "Component",
+    "Meta",
+    "Tag"
+  ],
+  "license": "Unlicense",
+  "main": "index.js",
+  "name": "d-meta-tag",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psirenny/d-meta-tag.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
