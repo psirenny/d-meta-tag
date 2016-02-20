@@ -12,13 +12,13 @@ Include the component:
 
     app.component(require('d-meta-tag'));
 
-Render meta-tags on the server INSIDE the <head> element:
+Render meta-tags on the server INSIDE the `<head>` element:
 
     <head>
       <d-meta-tag name="description" content="..." render />
     </head>
 
-Dynamically update meta-tags on the client INSIDE the <body> element:
+Dynamically update meta-tags on the client INSIDE the `<body>` element:
 
     <body>
       <d-meta-tag name="description" content="..." />
